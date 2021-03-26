@@ -1,1 +1,13 @@
-// Specific CSS for your home-page
+
+.body {
+  background-position: center;
+  background-image: asset-url("landing_page.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  padding-bottom: 36px;
+}
